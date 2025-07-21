@@ -1,5 +1,73 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
-body{
-    background: white;
+body {
+  background: white;
+}
+
+.alert-danger {
+  display: none;
+  background-color: #f8d7da;
+  color: #721c24;
+  border-color: #f5c6cb;
+  padding: 10px;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.is-invalid {
+  border-color: #dc3545 !important;
+  background-color: #f8d7da20;
+}
+
+.form-control,
+.form-select {
+  border-radius: 0.25rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-control:focus,
+.form-select:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  border-color: #80bdff;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #004085;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268;
+  border-color: #4e555b;
+}
+
+.d-flex.gap-3 .form-check {
+  margin-right: 10px;
+}
+
+textarea.form-control {
+  resize: vertical;
+  min-height: 150px;
+}
+
+.form-label {
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.col-md-4,
+.col-md-3,
+.col-md-6,
+.col-12 {
+  margin-bottom: 1rem;
 }
